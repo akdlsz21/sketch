@@ -9,7 +9,26 @@
 	</head>
 	<body>
 		<h3>Etch a Sketch</h3>
-		<button class="reset" type="reset">Reset</button>
+		<div class="menu">
+			<button class="reset" type="reset">Reset</button>
+			<input
+				type="range"
+				name="range"
+				id="range"
+				class="range"
+				min="4"
+				max="100"
+			/>
+			<div class="nums"></div>
+			<!-- Rounded switch -->
+			<span class="toggle-button">Color Mode</span>
+			<label class="switch">
+				<input type="checkbox" class="colorSwitch" />
+				<span class="slider round"
+					><span class="color-mode">OFF</span></span
+				>
+			</label>
+		</div>
 
 		<div class="container"></div>
 	</body>
